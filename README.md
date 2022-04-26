@@ -6,5 +6,4 @@
 * [ ] Making Requests
 * [ ] Creating your own Server-side HTTP Application in NodeJS (NodeJS' `http` Module)
 * [ ] Using Express
-
-
+* [ ] Middleware
