@@ -68,3 +68,9 @@ We'll end up using something like...
 `example.com/user/3`, `youtube.com?v=skdfjld3849`
 
 `localhost:8080/`
+
+## MVC
+
+* Model: Represents the data in the program.
+* View: Visual component of the app (the output.)
+* Controller: Logic in the app; bridges the gap between model and view (gets data, and sends it to output.)
