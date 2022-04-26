@@ -5,8 +5,8 @@
 * [X] What is a server?
 * [X] Making Requests
 * [X] Creating your own Server-side HTTP Application in NodeJS (NodeJS' `http` Module)
-* [ ] Using Express
-* [ ] Middleware
+* [X] Using Express
+* [X] Middleware
 
 ## TCP Review
 
@@ -65,6 +65,6 @@ We'll end up using something like...
 
 ## Routes
 
-`example.com/users`, `youtube.com?v=skdfjld3849`
+`example.com/user/3`, `youtube.com?v=skdfjld3849`
 
 `localhost:8080/`
