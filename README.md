@@ -3,7 +3,7 @@
 * [X] Review: HTTP
 * [X] What is a client?
 * [X] What is a server?
-* [ ] Making Requests
+* [X] Making Requests
 * [ ] Creating your own Server-side HTTP Application in NodeJS (NodeJS' `http` Module)
 * [ ] Using Express
 * [ ] Middleware
