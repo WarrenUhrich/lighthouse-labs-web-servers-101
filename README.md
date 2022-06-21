@@ -2,12 +2,6 @@
 
 [GitHub Repository and Branch](https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101/tree/2022.06.21-web-flex-day-16may2022) | [Vimeo Video Recording (Coming Soon!)](#coming-soon)
 
-warren
-instructor
-edmonton ab
-interesting fact
-school / how you get here
-
 * [X] Review: HTTP
 * [X] What is a client?
 * [X] What is a server?
