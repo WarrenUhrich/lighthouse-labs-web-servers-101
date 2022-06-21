@@ -7,13 +7,31 @@ const server = http.createServer((req, res) => {
     
     const formattedRequest = `${req.method} ${req.url}`;
 
+    res.writeHead(200, {'Content-Type': 'text/html'});
+
     // ROUTES
     if ('GET /home' === formattedRequest) {
-        res.end('Home Page');
+        res.end(`
+            <html>
+                <head><title>Welcome Home!</title></head>
+                <body><h1>Welcome Home!</h1></body>
+            </html>
+        `);
     } else if ('GET /about' === formattedRequest) {
-        res.end('All About Me!');
+        res.end(`
+            <html>
+                <head><title>All About Me!</title></head>
+                <body><h1>All About Me!</h1></body>
+            </html>
+        `);
     } else {
-        res.end('Page Not Found');
+        res.writeHead(404, {'Content-Type': 'text/html'});
+        res.end(`
+            <html>
+                <head><title>404: Page Not Found</title></head>
+                <body><h1>404: Page Not Found</h1></body>
+            </html>
+        `);
     }
 });
 
