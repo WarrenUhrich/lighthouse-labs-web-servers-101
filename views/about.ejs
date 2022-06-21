@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>All About Me!</title>
+    </head>
+    <body>
+        <h1>All About Me!</h1>
+        <p>
+            My name is <%= name %>
+            and I am an <%= position %>
+        </p>
+        <ul>
+            <% for (const skill of skills) { %>
+                <li>
+                    <%= skill.toLowerCase() %>
+                </li>
+            <% } // End "for" loop. %>
+        </ul>
+    </body>
+</html>
