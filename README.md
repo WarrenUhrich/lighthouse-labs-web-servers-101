@@ -32,3 +32,7 @@ Examples:
 * `cURL`
 * (Server-side Applications CAN act as a client)
   * node.js / Ruby
+
+## What is a Server?
+
+Software / system that can receive requests and send back a response.
