@@ -1,0 +1,26 @@
+{
+  "name": "lighthouse-labs-web-servers-101",
+  "version": "1.0.0",
+  "description": "Web server examples at Lighthouse Labs!",
+  "main": "01-http-request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101.git"
+  },
+  "keywords": [
+    "web",
+    "server"
+  ],
+  "author": "Warren Uhrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101/issues"
+  },
+  "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
