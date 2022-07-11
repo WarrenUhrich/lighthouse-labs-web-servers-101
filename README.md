@@ -31,3 +31,7 @@ Examples:
 * cURL
 * Postman
 * Web Servers / Web Applications (tricky!! But they are capable of making requests too!)
+
+## What is a Web Server?
+
+Any device and/or software capable of listening for requests, and sending responses.
