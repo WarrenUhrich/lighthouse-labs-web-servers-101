@@ -4,7 +4,7 @@ const express = require('express');
 // Configuration
 /////////////////////////////////////////////////////////////////////////////////////
 
-const PORT = 8080;
+const PORT = 7777;
 const app = express();
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 // Routes
 /////////////////////////////////////////////////////////////////////////////////////
 
-app.get('/', (req, res) => {
+app.get(['/', '/home'], (req, res) => {
     res.status(200);
     res.contentType('text/html');
     res.end('<html><head><title>Home Page</title></head><body><h1>Home Page</h1></body></html>');
@@ -41,6 +41,17 @@ app.get('/contact', (req, res) => {
     res.status(200);
     res.contentType('text/html');
     res.end('<html><head><title>Contact Page</title></head><body><h1>Contact Page</h1></body></html>');
+});
+
+/////////////////////////////////////////////////////////////////////////////////////
+// 404: Page Not Found
+/////////////////////////////////////////////////////////////////////////////////////
+
+app.use((req, res) => {
+    res.status(404);
+    res.contentType('text/html');
+    res.end('<html><head><title>404: Page Not Found</title></head><body><h1>404: Page Not Found</h1></body></html>');
+
 });
 
 /////////////////////////////////////////////////////////////////////////////////////
