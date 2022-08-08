@@ -10,7 +10,15 @@ const options = {
 const request = https.request(options, (response) => {
     response.on('data', (data) => {
         // console.log(data); // Will print the data as raw binary.
-        process.stdout.write(data); // Will print the data in a readable string.
+        // process.stdout.write(data); // Will print the data in a readable string.
+        const dataArray = JSON.parse(data); // Convert the JSON string into an actual JS array / object.
+        // console.log(dataArray);
+
+        if (dataArray) {
+            for (const catFactObj of dataArray) {
+                console.log('*', catFactObj.text);
+            }
+        }
     });
 });
 
