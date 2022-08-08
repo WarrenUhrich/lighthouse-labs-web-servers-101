@@ -45,4 +45,4 @@ In-class we have tried:
 * A web browser (Firefox)
 * A command-line tool (cURL)
 * An API testing tool (Postman)
-* A Node.js program 
+* A Node.js program
