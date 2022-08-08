@@ -14,6 +14,7 @@ const server = http.createServer((request, response) => {
     response.writeHead(200, {'Content-Type': 'text/html'});
 
     switch(requestString) {
+        case 'GET /':
         case 'GET /home': // if requestString === 'GET /home'
             response.end('<html><head><title>Home Page</title></head><body><h1>Home Page</h1></body></html>');
             break;
