@@ -10,10 +10,6 @@
 * [X] Using Express
 * [X] Middleware
 
-## The Journey Toward Full-Stack
-
-![Full-Stack MS Paint Diagram](https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101/blob/2022.06.21-web-flex-day-16may2022/full-stack-ms-paint-diagram.png?raw=true)
-
 ## Review: HTTP
 
 HTTP stands for Hypertext Transfer Protocol. It is a layer of communication built on top of TCP (Transmission Control Protocol.)
