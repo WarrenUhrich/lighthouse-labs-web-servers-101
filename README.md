@@ -49,4 +49,10 @@ In-class we have tried:
 
 ## Server
 
+A device and/or software capable of receiving a request, and sending a response.
+
+* Web Server Software: Apache, nginx, IIS
+* Application Server: Zend Server
+* Load Balancer: diverts traffic among a variety of response servers
+
 
