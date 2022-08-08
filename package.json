@@ -2,7 +2,7 @@
   "name": "lighthouse-labs-web-servers-101",
   "version": "1.0.0",
   "description": "Web server example for Lighthouse Labs.",
-  "main": "06-express-server.js",
+  "main": "08-express-with-ejs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
