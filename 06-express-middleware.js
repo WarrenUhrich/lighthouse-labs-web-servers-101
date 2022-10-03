@@ -8,6 +8,16 @@ const PORT = 4444;
 const app = express();
 
 ///////////////////////////////////////////////////////////////////////////////////
+// Middleware
+///////////////////////////////////////////////////////////////////////////////////
+
+// Logging Middleware
+app.use((req, res, next) => {
+    console.log(req.method, req.url);
+    next();
+});
+
+///////////////////////////////////////////////////////////////////////////////////
 // Listener
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -23,6 +33,11 @@ app.get('/', (req, res) => {
     res.status(200);
     res.contentType('text/html');
     res.end('<html><head><title>Homepage</title></head><body><h1>Homepage</h1></body></html>');
+});
+
+app.get(['/home', '/index', '/homepage', '/default', '/landing'], (req, res) => {
+    res.status(301);
+    res.redirect('/');
 });
 
 app.get('/about', (req, res) => {

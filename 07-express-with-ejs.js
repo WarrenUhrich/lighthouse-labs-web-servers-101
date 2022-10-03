@@ -4,8 +4,19 @@ const express = require('express');
 // Configuration
 ///////////////////////////////////////////////////////////////////////////////////
 
-const PORT = 4444;
+const PORT = 7777;
 const app = express();
+app.set('view engine', 'ejs');
+
+///////////////////////////////////////////////////////////////////////////////////
+// Middleware
+///////////////////////////////////////////////////////////////////////////////////
+
+// Logging Middleware
+app.use((req, res, next) => {
+    console.log(req.method, req.url);
+    next();
+});
 
 ///////////////////////////////////////////////////////////////////////////////////
 // Listener
@@ -22,7 +33,19 @@ app.listen(PORT, () => {
 app.get('/', (req, res) => {
     res.status(200);
     res.contentType('text/html');
-    res.end('<html><head><title>Homepage</title></head><body><h1>Homepage</h1></body></html>');
+
+    const templateVars = {
+        title: 'Home Page',
+        message: 'Welcome to our Home Page!'
+    };
+
+    // SPECIFY TEMPLATE FILE!
+    res.render('home', templateVars); // RENDER IS USED FOR VIEW ENGINE (EJS)
+});
+
+app.get(['/home', '/index', '/homepage', '/default', '/landing'], (req, res) => {
+    res.status(301);
+    res.redirect('/');
 });
 
 app.get('/about', (req, res) => {
