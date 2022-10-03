@@ -1,12 +1,14 @@
 # Lighthouse Labs | Web Servers 101
 
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101/tree/2022.10.03-web-ft-east-19sept2022) | [Vimeo Video Recording (Coming Soon)](#coming-soon)
+
 * [X] Review: HTTP
 * [X] What is a client?
-* [ ] What is a server?
-* [ ] Making Requests
-* [ ] Creating Server-side HTTP Applications in NodeJS (NodeJS' http` Module)
-* [ ] Using Express
-* [ ] Middleware
+* [X] What is a server?
+* [X] Making Requests
+* [X] Creating Server-side HTTP Applications in NodeJS (NodeJS' http` Module)
+* [X] Using Express
+* [X] Middleware
 
 ## TCP
 
