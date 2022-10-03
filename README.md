@@ -2,6 +2,14 @@
 
 [GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101/tree/2022.10.03-web-ft-east-19sept2022) | [Vimeo Video Recording](https://vimeo.com/756530197/e840b826a6)
 
+* [X] Review: HTTP
+* [X] What is a client?
+* [X] What is a server?
+* [X] Making Requests
+* [X] Creating Server-side HTTP Applications in NodeJS (NodeJS' `http` Module)
+* [X] Using Express
+* [X] Middleware
+
 ## Review: HTTP
 
 HTTP stands for Hypertext Transfer Protocol. It is a layer of communication built on top of TCP (Transmission Control Protocol.)
