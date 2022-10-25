@@ -41,3 +41,11 @@ A client is any software capable of properly formatting and sending a request.
 * Postman
 
 ## Server
+
+Any device / software capable of receiving and interpreting HTTP requests and sending a response.
+
+* Web Server: any software that accepts HTTP/HTTPS requests and can return a representation of that resource. Includes nginx, Apache, IIS.
+* Application Server: a server that hosts and runs applications. Zend Server, Jakarta.
+* Load Balancer: spreads request traffic amongst different servers to help balance the load. Ex) HAProxy.
+
+
