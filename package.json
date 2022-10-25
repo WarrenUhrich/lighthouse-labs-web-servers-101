@@ -1,0 +1,26 @@
+{
+  "name": "lighthouse-labs-web-servers-101",
+  "version": "1.0.0",
+  "description": "Express web server practice.",
+  "main": "01-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101.git"
+  },
+  "keywords": [
+    "express",
+    "node.js"
+  ],
+  "author": "Warren Uhrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101/issues"
+  },
+  "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
