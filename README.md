@@ -1,9 +1,9 @@
 # Lighthouse Labs | Web Servers 101
 
-* [ ] Review: HTTP
-* [ ] What is a client?
+* [X] Review: HTTP
+* [X] What is a client?
 * [ ] What is a server?
-* [ ] Making Requests
+* [X] Making Requests
 * [ ] Creating Server-side HTTP Applications in NodeJS (NodeJS' http Module)
 * [ ] Using Express
 * [ ] Middleware
@@ -40,3 +40,11 @@ Any hardware / software capable of making a request to a server.
 * Devices on a Network (if there is an HTTP server avail.)
 * cURL (CLI tool for making HTTP requests)
 * Postman (developer tool for testing HTTP requests)
+
+## Server?
+
+Any device / hardware / software capable of accepting and interpreting a request, and sending a valid HTTP response.
+
+* Web Server: software accepting HTTP/HTTPS requests, returning a representation of the expected resource. Examples) Apache, nginx, IIS.
+* Application Server: a server that hosts applications. Examples) Jakarta EE, Zend Server.
+* Load Balancer: server that diverts request traffic to more equally share the load across many servers. Example) HAProxy.

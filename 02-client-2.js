@@ -11,8 +11,6 @@ const options = {
 
 const request = https.request(options, (response) => {
     response.on('data', (data) => {
-        data = String(data);
-
         const catFactObj = JSON.parse(data);
 
         // const fact = catFactObj.data[0].fact;
