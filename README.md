@@ -43,3 +43,11 @@ HTTP stands for HyperText Transfer Protocol! Transport layer built on TCP.
 
 * Any device or application capable of handling a request and sending a response.
 * For example) web servers, application/game servers, load balancer servers.
+
+## What is Middleware?
+
+Functions that run before the response function runs.
+
+`receive a request -> middleware runs -> route code runs`
+
+* Commons uses include authorization, logging, and more
