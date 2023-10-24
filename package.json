@@ -1,0 +1,28 @@
+{
+  "name": "lighthouse-labs-web-servers-101",
+  "version": "1.0.0",
+  "description": "Practicing http/https and Express",
+  "main": "01-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "express",
+    "node"
+  ],
+  "author": "Warren Uhrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101/issues"
+  },
+  "homepage": "https://github.com/WarrenUhrich/lighthouse-labs-web-servers-101#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
