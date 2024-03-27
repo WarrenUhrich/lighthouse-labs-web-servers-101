@@ -1,0 +1,19 @@
+{
+  "name": "web-servers-101",
+  "version": "1.0.0",
+  "description": "Practicing http and Express",
+  "main": "01-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "http",
+    "nodejs"
+  ],
+  "author": "Warren Uhrich",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
